@@ -8,9 +8,7 @@ This project demonstrates a simple **Zero-Knowledge Proof (ZKP)** circuit using 
 
 The circuit computes:
 
-$$
-\mathrm{expected_result} = \mathrm{base^exponent} \bmod \\mathrm{modulus}
-$$
+expected_result $= \mathrm{base^exponent} \bmod \mathrm{modulus}$
 
 All values (`base`, `exponent`, `modulus`) are private inputs except `modulus` (which can be made public) and the `expected_result` (which is always public).
 
